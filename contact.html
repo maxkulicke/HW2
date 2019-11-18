@@ -16,10 +16,12 @@
 
   <!-- NAVBAR -->
   <div class="pos-f-t">
-    <div class="collapse" id="navbarToggleExternalContent">
+    <a class="btn btn-dark bg-transparent" id="menu" data-toggle="collapse" href="#navbarToggleExternalContent"
+      role="button" aria-expanded="false" aria-controls="collapseExample">M W K → </a>
+    <div class="collapse width" id="navbarToggleExternalContent">
       <div class="bg-transparent p-0">
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-transparent">
-          <a class="navbar-brand" href="#">Max Kulicke</a>
+          <!-- <a class="navbar-brand" href="#">Max Kulicke</a> -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,13 +30,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="./index.html">About</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="./portfolio.html">Portfolio</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="./contact.html">Contact</a>
               </li>
               </li>
             </ul>
@@ -42,12 +44,12 @@
         </nav>
       </div>
     </div>
-    <nav class="navbar navbar-dark bg-transparent">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </nav>
+    <!-- <nav class="navbar navbar-dark bg-transparent">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav> -->
   </div>
 
   <!-- MAIN CONTENT BOX -->
@@ -64,29 +66,32 @@
             <!-- CARD -->
             <div class="card">
               <div class="card-body">
-                <h1>Get In Touch</h1>
-                <!-- FORM -->
-                <form>
-                  <div class="form row">
-                    <div class="form-group col-md-6">
-                      <label for="InputName1">Name</label>
-                      <input type="name" class="form-control" id="InputName1" aria-describedby="nameHelp"
-                        placeholder="Enter name">
+                <h1>Contact</h1>
+                <!-- SCROLLBOX -->
+                <div class="scrollbox">
+                  <!-- FORM -->
+                  <form>
+                    <div class="form row">
+                      <div class="form-group col-md-6">
+                        <label for="InputName1">Name</label>
+                        <input type="name" class="form-control" id="InputName1" aria-describedby="nameHelp"
+                          placeholder="Enter name">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="InputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
+                          placeholder="Enter email">
+                      </div>
                     </div>
-                    <div class="form-group col-md-6">
-                      <label for="InputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
-                        placeholder="Enter email">
+
+                    <div class="form-group">
+                      <label for="FormControlTextarea1">Message</label>
+                      <textarea class="form-control" id="FormControlTextarea1" rows="7"></textarea>
                     </div>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="FormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="FormControlTextarea1" rows="10"></textarea>
-                  </div>
-                </form>
-                <!-- /FORM -->
-
+                    <button type="button" class="btn btn-outline-dark">Submit</button>
+                  </form>
+                  <!-- /FORM -->
+                </div>
               </div>
             </div>
             <!-- /CARD -->

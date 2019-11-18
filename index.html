@@ -16,12 +16,13 @@
 <body id="indexbody">
 
   <!-- NAVBAR -->
-
   <div class="pos-f-t">
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg-dark p-0">
+    <a class="btn btn-dark bg-transparent" id="menu" data-toggle="collapse" href="#navbarToggleExternalContent"
+      role="button" aria-expanded="false" aria-controls="collapseExample">M W K → </a>
+    <div class="collapse width" id="navbarToggleExternalContent">
+      <div class="bg-transparent p-0">
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-transparent">
-          <a class="navbar-brand" href="#">Max Kulicke</a>
+          <!-- <a class="navbar-brand" href="#">Max Kulicke</a> -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,13 +31,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="./index.html">About</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="./portfolio.html">Portfolio</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="./contact.html">Contact</a>
               </li>
               </li>
             </ul>
@@ -44,12 +45,12 @@
         </nav>
       </div>
     </div>
-    <nav class="navbar navbar-dark bg-transparent">
+    <!-- <nav class="navbar navbar-dark bg-transparent">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
         aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    </nav>
+    </nav> -->
   </div>
 
   <!-- MAIN CONTENT BOX -->
@@ -65,7 +66,8 @@
             <div class="card">
               <div class="card-body">
                 <h1>About Me</h1>
-                <div class="overflow-auto">
+                <!-- scrollbox -->
+                <div class="scrollbox">
                   <img src="assets/images/max_on_box.jpg" class="img-fluid float-left" id="maxpic" alt="Max"
                     height="278" width="202">
                   <p>New to the web development world, I really don't have much to put here yet, although that will

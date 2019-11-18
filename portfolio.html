@@ -16,10 +16,12 @@
 
   <!-- NAVBAR -->
   <div class="pos-f-t">
-    <div class="collapse" id="navbarToggleExternalContent">
+    <a class="btn btn-dark bg-transparent" id="menu" data-toggle="collapse" href="#navbarToggleExternalContent"
+      role="button" aria-expanded="false" aria-controls="collapseExample">M W K → </a>
+    <div class="collapse width" id="navbarToggleExternalContent">
       <div class="bg-transparent p-0">
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-transparent">
-          <a class="navbar-brand" href="#">Max Kulicke</a>
+          <!-- <a class="navbar-brand" href="#">Max Kulicke</a> -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,13 +30,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="./index.html">About</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="./portfolio.html">Portfolio</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="./contact.html">Contact</a>
               </li>
               </li>
             </ul>
@@ -42,12 +44,12 @@
         </nav>
       </div>
     </div>
-    <nav class="navbar navbar-dark bg-transparent">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </nav>
+    <!-- <nav class="navbar navbar-dark bg-transparent">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav> -->
   </div>
 
   <!-- MAIN CONTENT BOX -->
@@ -61,40 +63,56 @@
         <div class="row">
           <!-- sub row -->
           <div class="col-md-12">
-            <!-- card -->
+            <!-- main card -->
             <div class="card">
               <div class="card-body">
                 <h1>My Work</h1>
 
-                <div class="overflow-auto">
+                <!-- scrollbox div -->
+                <div class="scrollbox">
                   <!-- card deck -->
                   <div class="card-deck">
                     <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                          additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <img src="assets/images/disintegrationtapes.jpg" class="card-img-top" alt="Disintegration Tapes">
+                      <div class="card-img-overlay">
+                        <a class="btn btn-light bg-light" data-toggle="collapse" href="#disintegrationtapes"
+                          role="button" aria-expanded="false" aria-controls="collapseExample">
+                          <h5 class="card-title">William Basinski: <br> Disintegration Tapes</h5>
+                        </a>
+
+                        <div class="collapse bg-light" id="disintegrationtapes">
+                          <p class="card-text">Basinski's seminal tape-loop masterpiece, dedicated to victims of 9/11
+                          </p>
+                        </div>
                       </div>
                     </div>
                     <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                          content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <img src="assets/images/thespacebetween.jpg" class="card-img-top" alt="The Space Between">
+                      <div class="card-img-overlay">
+                        <a class="btn btn-light bg-light" data-toggle="collapse" href="#thespacebetween" role="button"
+                          aria-expanded="false" aria-controls="collapseExample">
+                          <h5 class="card-title">Joanna Brouk: <br> The Space Between</h5>
+                        </a>
+
+                        <div class="collapse bg-light" id="thespacebetween">
+                          <p class="card-text">An overlooked New Age masterpiece, featuring sublime
+                            piano compositions,
+                            synthesizer musings and tintinnabulation</p>
+                        </div>
                       </div>
                     </div>
                     <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                          additional content. This card has even longer content than the first to show that equal height
-                          action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <img src="assets/images/qp.jpg" class="card-img-top" alt="qp">
+                      <div class="card-img-overlay">
+                        <a class="btn btn-light bg-light" data-toggle="collapse" href="#qp" role="button"
+                          aria-expanded="false" aria-controls="collapseExample">
+                          <h5 class="card-title">Ichiko Aoba: <br> qp</h5>
+                        </a>
+
+                        <div class="collapse bg-light" id="qp">
+                          <p class="card-text">Immaculate, beautiful, seemingly primordial folk from the young Japanese
+                            artist. Haunting vocals, deft fingerstyle guitar</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -104,31 +122,44 @@
                   <!-- card deck -->
                   <div class="card-deck">
                     <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                          additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <img src="assets/images/passageways.jpg" class="card-img-top" alt="Passageways">
+                      <div class="card-img-overlay">
+                        <a class="btn btn-light bg-light" data-toggle="collapse" href="#passageways" role="button"
+                          aria-expanded="false" aria-controls="collapseExample">
+                          <h5 class="card-title">Forest Management: <br> Passageways</h5>
+                        </a>
+
+                        <div class="collapse bg-light" id="passageways">
+                          <p class="card-text">A short collection of tape loops, distorted and meditative</p>
+                        </div>
                       </div>
                     </div>
                     <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                          content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <img src="assets/images/stillway.jpg" class="card-img-top" alt="Still Way">
+                      <div class="card-img-overlay">
+                        <a class="btn btn-light bg-light" data-toggle="collapse" href="#stillway" role="button"
+                          aria-expanded="false" aria-controls="collapseExample">
+                          <h5 class="card-title">Satoshi Ashikawa: <br> Still Way</h5>
+                        </a>
+
+                        <div class="collapse bg-light" id="stillway">
+                          <p class="card-text">A chilly and moody album of ambient compositions in the style of Eno, but
+                            with a distinctly Japanese tonality</p>
+                        </div>
                       </div>
                     </div>
                     <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                          additional content. This card has even longer content than the first to show that equal height
-                          action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <img src="assets/images/ambiantotaku.jpg" class="card-img-top" alt="Ambiant Otaku">
+                      <div class="card-img-overlay">
+                        <a class="btn btn-light bg-light" data-toggle="collapse" href="#ambiantotaku" role="button"
+                          aria-expanded="false" aria-controls="collapseExample">
+                          <h5 class="card-title">Tetso Inoue: <br> Ambiant Otake</h5>
+                        </a>
+
+                        <div class="collapse bg-light" id="ambiantotaku">
+                          <p class="card-text">One of Inoue's ambient works, released before his unexplained
+                            disappearance</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -138,68 +169,53 @@
                   <!-- card deck -->
                   <div class="card-deck">
                     <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                          additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <img src="assets/images/houseinthetallgrass.jpg" class="card-img-top"
+                        alt="House In The Tall Grass">
+                      <div class="card-img-overlay">
+                        <a class="btn btn-light bg-light" data-toggle="collapse" href="#houseinthetallgrass"
+                          role="button" aria-expanded="false" aria-controls="collapseExample">
+                          <h5 class="card-title">Kikagaku Moya: <br> House In The Tall Grass</h5>
+                        </a>
+
+                        <div class="collapse bg-light" id="houseinthetallgrass">
+                          <p class="card-text">Psychedelia at it's finest, 5 Japanese rockers locked in and crafting
+                            beautifully dynamic worlds together</p>
+                        </div>
                       </div>
                     </div>
                     <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                          content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <img src="assets/images/musicforninepostcards.jpg" class="card-img-top"
+                        alt="Music For Nine Postcards">
+                      <div class="card-img-overlay">
+                        <a class="btn btn-light bg-light" data-toggle="collapse" href="#musicforninepostcards"
+                          role="button" aria-expanded="false" aria-controls="collapseExample">
+                          <h5 class="card-title">Hiroshi Yoshimura: <br> Music For Nine Postcards</h5>
+                        </a>
+
+                        <div class="collapse bg-light" id="musicforninepostcards">
+                          <p class="card-text">A warmer, more universal companion to Ashikawa's Still Way, ideal to work
+                            to</p>
+                        </div>
                       </div>
                     </div>
                     <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                          additional content. This card has even longer content than the first to show that equal height
-                          action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <img src="assets/images/journeyinsatchidinanda.jpg" class="card-img-top"
+                        alt="Journey In Satchidinanda">
+                      <div class="card-img-overlay">
+                        <a class="btn btn-light bg-light" data-toggle="collapse" href="#journeyinsatchidinanda"
+                          role="button" aria-expanded="false" aria-controls="collapseExample">
+                          <h5 class="card-title">Alice Coltrane: <br> Journey In Satchidinanda</h5>
+                        </a>
+
+                        <div class="collapse bg-light" id="journeyinsatchidinanda">
+                          <p class="card-text">Alice Coltrane's spiritual journey through drone music with saxophone by
+                            Pharoah Sanders</p>
+                        </div>
                       </div>
                     </div>
                   </div>
 
                   <br>
-
-                  <!-- card deck -->
-                  <div class="card-deck">
-                    <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                          additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                          content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                          additional content. This card has even longer content than the first to show that equal height
-                          action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-                    </div>
-                  </div>
 
                 </div>
               </div>

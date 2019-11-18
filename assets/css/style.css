@@ -25,6 +25,19 @@ h1 {
   border: none;
 }
 
+.card-img-overlay {
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.scrollbox {
+  max-height: 24rem;
+  overflow-y: auto;
+}
+
 .headercard {
 
 }
@@ -41,6 +54,30 @@ h1 {
 .badge {
   font-size: 10pt;
 }
+
+.btn {
+  font-size: 24pt;
+  border: none;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+#menu {
+  font-size: 28pt;
+  margin-left: 1rem;
+}
+
+.collapse {
+  height: auto;
+  width: auto;
+}
+
+.scroll {
+  overflow-y: auto;
+}
+
 #indexbody {
   background-image: url("../../assets/images/lightleak.jpg");
   background-size: cover;
