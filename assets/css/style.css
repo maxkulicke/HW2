@@ -10,7 +10,7 @@ h1 {
   padding: 0rem 0rem 1rem 0rem;
 }
 
-.navbar {
+.navlink {
 }
 
 .navbar-brand {
@@ -64,6 +64,15 @@ h1 {
   box-shadow: none;
 }
 
+.learnmore {
+  font-size: 12pt;
+}
+
+#learnmor {
+  font-size: 12pt;
+}
+
+
 #menu {
   font-size: 28pt;
   margin-left: 1rem;
@@ -97,6 +106,5 @@ h1 {
 
 #maxpic {
   margin: 0rem 2rem 1rem 0rem;
-
 }
 

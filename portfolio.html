@@ -12,43 +12,40 @@
   <title>Portfolio</title>
 </head>
 
+<!-- DO ALL IMAGES NEED TO BE FLUID? -->
+
 <body id="portfoliobody">
 
   <!-- NAVBAR -->
   <div class="pos-f-t">
-    <a class="btn btn-dark bg-transparent" id="menu" data-toggle="collapse" href="#navbarToggleExternalContent"
-      role="button" aria-expanded="false" aria-controls="navbarToggleExternalContent">M W K → </a>
-    <div class="collapse width" id="navbarToggleExternalContent">
-      <div class="bg-transparent p-0">
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-transparent">
-          <!-- <a class="navbar-brand" href="#">Max Kulicke</a> -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <div class="btn-group dropright">
+      <a class="btn btn-dark bg-transparent" id="menu" data-toggle="collapse" href="#navbarToggleExternalContent"
+        role="button" aria-expanded="false" aria-controls="navbarToggleExternalContent">M W K → </a>
+      <div class="collapse width" id="navbarToggleExternalContent">
+        <div class="bg-transparent p-0">
+          <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-transparent">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="./index.html">About</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="./contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./index.html">About</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
     </div>
-    <!-- <nav class="navbar navbar-dark bg-transparent">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-          aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </nav> -->
   </div>
 
   <!-- MAIN CONTENT BOX -->
@@ -69,10 +66,12 @@
 
                 <!-- scrollbox div -->
                 <div class="scrollbox">
+                  <!-- IN ACTUAL PORTFOLIO, EACH IMAGE WOULD BE A LINK -->
                   <!-- card deck -->
                   <div class="card-deck">
                     <div class="card">
-                      <img src="assets/images/disintegrationtapes.jpg" class="card-img-top" alt="Disintegration Tapes">
+                      <img src="assets/images/disintegrationtapes.jpg" class="img-fluid card-img-top"
+                        alt="Disintegration Tapes">
                       <div class="card-img-overlay">
                         <a class="btn btn-light bg-light" data-toggle="collapse" href="#disintegrationtapes"
                           role="button" aria-expanded="false" aria-controls="disintegrationtapes">
@@ -82,6 +81,7 @@
                         <div class="collapse bg-light" id="disintegrationtapes">
                           <p class="card-text">Basinski's seminal tape-loop masterpiece, dedicated to victims of 9/11
                           </p>
+                          <button type="button" class="btn btn-outline-dark learnmore">Learn More</button>
                         </div>
                       </div>
                     </div>
@@ -97,6 +97,7 @@
                           <p class="card-text">An overlooked New Age masterpiece, featuring sublime
                             piano compositions,
                             synthesizer musings and tintinnabulation</p>
+                          <button type="button" class="btn btn-outline-dark learnmore">Learn More</button>
                         </div>
                       </div>
                     </div>
@@ -111,6 +112,7 @@
                         <div class="collapse bg-light" id="qp">
                           <p class="card-text">Immaculate, beautiful, seemingly primordial folk from the young Japanese
                             artist. Haunting vocals, deft fingerstyle guitar</p>
+                          <button type="button" class="btn btn-outline-dark learnmore">Learn More</button>
                         </div>
                       </div>
                     </div>
@@ -130,6 +132,7 @@
 
                         <div class="collapse bg-light" id="passageways">
                           <p class="card-text">A short collection of tape loops, distorted and meditative</p>
+                          <button type="button" class="btn btn-outline-dark learnmore">Learn More</button>
                         </div>
                       </div>
                     </div>
@@ -144,6 +147,7 @@
                         <div class="collapse bg-light" id="stillway">
                           <p class="card-text">A chilly and moody album of ambient compositions in the style of Eno, but
                             with a distinctly Japanese tonality</p>
+                          <button type="button" class="btn btn-outline-dark learnmore">Learn More</button>
                         </div>
                       </div>
                     </div>
@@ -158,6 +162,7 @@
                         <div class="collapse bg-light" id="ambiantotaku">
                           <p class="card-text">One of Inoue's ambient works, released before his unexplained
                             disappearance</p>
+                          <button type="button" class="btn btn-outline-dark learnmore">Learn More</button>
                         </div>
                       </div>
                     </div>
@@ -179,6 +184,7 @@
                         <div class="collapse bg-light" id="houseinthetallgrass">
                           <p class="card-text">Psychedelia at it's finest, 5 Japanese rockers locked in and crafting
                             beautifully dynamic worlds together</p>
+                          <button type="button" class="btn btn-outline-dark learnmore">Learn More</button>
                         </div>
                       </div>
                     </div>
@@ -194,6 +200,7 @@
                         <div class="collapse bg-light" id="musicforninepostcards">
                           <p class="card-text">A warmer, more universal companion to Ashikawa's Still Way, ideal to work
                             to</p>
+                          <button type="button" class="btn btn-outline-dark learnmore">Learn More</button>
                         </div>
                       </div>
                     </div>
@@ -209,6 +216,7 @@
                         <div class="collapse bg-light" id="journeyinsatchidinanda">
                           <p class="card-text">Alice Coltrane's spiritual journey through drone music with saxophone by
                             Pharoah Sanders</p>
+                          <button type="button" class="btn btn-outline-dark learnmore">Learn More</button>
                         </div>
                       </div>
                     </div>
