@@ -17,7 +17,7 @@
   <!-- NAVBAR -->
   <div class="pos-f-t">
     <a class="btn btn-dark bg-transparent" id="menu" data-toggle="collapse" href="#navbarToggleExternalContent"
-      role="button" aria-expanded="false" aria-controls="collapseExample">M W K → </a>
+      role="button" aria-expanded="false" aria-controls="navbarToggleExternalContent">M W K → </a>
     <div class="collapse width" id="navbarToggleExternalContent">
       <div class="bg-transparent p-0">
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-transparent">
@@ -37,7 +37,6 @@
               </li>
               <li class="nav-item active">
                 <a class="nav-link" href="./contact.html">Contact</a>
-              </li>
               </li>
             </ul>
           </div>
@@ -74,19 +73,18 @@
                     <div class="form row">
                       <div class="form-group col-md-6">
                         <label for="InputName1">Name</label>
-                        <input type="name" class="form-control" id="InputName1" aria-describedby="nameHelp"
-                          placeholder="Enter name">
+                        <input type="text" class="form-control" id="InputName1" placeholder="Enter name">
                       </div>
                       <div class="form-group col-md-6">
                         <label for="InputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
-                          placeholder="Enter email">
+                        <input type="email" class="form-control" id="InputEmail1" placeholder="Enter email">
                       </div>
                     </div>
 
                     <div class="form-group">
                       <label for="FormControlTextarea1">Message</label>
-                      <textarea class="form-control" id="FormControlTextarea1" rows="7"></textarea>
+                      <textarea class="form-control" id="FormControlTextarea1" placeholder="Enter message"
+                        rows="7"></textarea>
                     </div>
                     <button type="button" class="btn btn-outline-dark">Submit</button>
                   </form>
