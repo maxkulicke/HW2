@@ -1,29 +1,65 @@
 body {
-  /* The image used */
-  background-image: url('/assets/images/crashingwave.jpg');
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-.bg {
-  /* The image used */
-  background-image: url("/assets/images/greenwater.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+p {
+font-size: 13pt;
 }
 
+h1 {
+  padding: 0rem 0rem 1rem 0rem;
+}
+
+.navbar {
+}
+
+.navbar-brand {
+  font-size: 26pt;
+}
+
+.nav-item {
+  font-size: 26pt;
+  float: right;
+}
 .card {
+  border: none;
+}
+
+.headercard {
+
+}
+
+.container {
+  margin: 1rem 1rem 1rem 2rem;
+}
+
+.footer {
+  padding: none;
+  text-align: center;
+}
+
+.badge {
+  font-size: 10pt;
+}
+#indexbody {
+  background-image: url("../../assets/images/lightleak.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#portfoliobody {
+  background-image: url("../../assets/images/crashingwave.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#contactbody {
+  background-image: url("../../assets/images/greenwater.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#maxpic {
+  margin: 0rem 2rem 1rem 0rem;
+
 }
 

@@ -7,42 +7,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Contact</title>
-
-  <!-- are these css sheets placed correctly? -->
-  <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>Contact</title>
 </head>
 
-<body>
+<body id="contactbody">
 
   <!-- NAVBAR -->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">
-      <img src="/assets/images/whitewall.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-      Max Kulicke
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <div class="pos-f-t">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-transparent p-0">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-transparent">
+          <a class="navbar-brand" href="#">Max Kulicke</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        </li>
-      </ul>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
-  </nav>
+    <nav class="navbar navbar-dark bg-transparent">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </div>
 
+  <!-- MAIN CONTENT BOX -->
   <div class="container">
     <div class="row">
       <div class="col-md-1">
@@ -56,7 +64,7 @@
             <!-- CARD -->
             <div class="card">
               <div class="card-body">
-
+                <h1>Get In Touch</h1>
                 <!-- FORM -->
                 <form>
                   <div class="form row">
@@ -92,19 +100,12 @@
     </div>
   </div>
 
-  <!-- IMAGE BACKGROUND -->
-  <!-- <img src="assets/images/greenwater.jpg" class="img-fluid wallpaper" alt="greenwater"> -->
-
-  <!-- MAIN CONTENT BOX -->
-
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
-      <span class="text-muted">© 2019 Copyright</span>
+      <span class="badge badge-light">© 2019 Copyright</span>
     </div>
   </footer>
-
-
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -115,6 +116,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>
