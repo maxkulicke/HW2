@@ -7,14 +7,103 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Contact</title>
 
   <!-- are these css sheets placed correctly? -->
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="/assets/images/whitewall.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+      Max Kulicke
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+        <!-- 2 column margin on L -->
+      </div>
+      <div class="col-md-10">
+        <div class="row">
+          <!-- sub row -->
+          <div class="col-md-12">
+
+            <!-- CARD -->
+            <div class="card">
+              <div class="card-body">
+
+                <!-- FORM -->
+                <form>
+                  <div class="form row">
+                    <div class="form-group col-md-6">
+                      <label for="InputName1">Name</label>
+                      <input type="name" class="form-control" id="InputName1" aria-describedby="nameHelp"
+                        placeholder="Enter name">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="InputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="FormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="FormControlTextarea1" rows="10"></textarea>
+                  </div>
+                </form>
+                <!-- /FORM -->
+
+              </div>
+            </div>
+            <!-- /CARD -->
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1">
+        <!-- 2 column margin on L -->
+      </div>
+    </div>
+  </div>
+
+  <!-- IMAGE BACKGROUND -->
+  <!-- <img src="assets/images/greenwater.jpg" class="img-fluid wallpaper" alt="greenwater"> -->
+
+  <!-- MAIN CONTENT BOX -->
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">© 2019 Copyright</span>
+    </div>
+  </footer>
+
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
