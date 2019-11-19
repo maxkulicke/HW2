@@ -3,14 +3,25 @@ body {
 }
 
 p {
-font-size: 13pt;
+  font-size: 13pt;
 }
 
 h1 {
-  padding: 0rem 0rem 1rem 0rem;
+  /* padding: 0rem 0rem 1rem 0rem; */
+}
+
+.navbar {
+
+}
+
+.dropright {
 }
 
 .navlink {
+}
+
+.main {
+  margin: 1rem 0rem 1rem 0rem;
 }
 
 .navbar-brand {
@@ -43,7 +54,7 @@ h1 {
 }
 
 .container {
-  margin: 1rem 1rem 1rem 2rem;
+  /* margin: 1rem 1rem 1rem 2rem; */
 }
 
 .footer {
@@ -51,6 +62,7 @@ h1 {
   text-align: center;
 }
 
+/* is this even a thing? */
 .badge {
   font-size: 10pt;
 }
@@ -68,12 +80,6 @@ h1 {
   font-size: 12pt;
 }
 
-
-#menu {
-  font-size: 28pt;
-  margin-left: 1rem;
-}
-
 .collapse {
   height: auto;
   width: auto;
@@ -81,6 +87,11 @@ h1 {
 
 .scroll {
   overflow-y: auto;
+}
+
+#menu {
+  font-size: 28pt;
+  /* margin-left: 1rem; */
 }
 
 #indexbody {
