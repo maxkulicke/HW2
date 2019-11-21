@@ -96,17 +96,20 @@ h1 {
 
 #indexbody {
   background-image: url("../../assets/images/lightleak.jpg");
+  /* height: auto; */
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #portfoliobody {
   background-image: url("../../assets/images/crashingwave.jpg");
+  /* height: auto; */
   background-size: cover;
   background-repeat: no-repeat;
 }
 #contactbody {
   background-image: url("../../assets/images/greenwater.jpg");
+  /* height: auto; */
   background-size: cover;
   background-repeat: no-repeat;
 }
