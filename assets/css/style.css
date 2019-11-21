@@ -28,6 +28,10 @@ h1 {
   font-size: 26pt;
 }
 
+.navbar-toggler-icon {
+  border-color: blueviolet;
+}
+
 .nav-item {
   font-size: 26pt;
   float: right;
@@ -96,7 +100,7 @@ h1 {
 
 #indexbody {
   background-image: url("../../assets/images/lightleak.jpg");
-  /* height: auto; */
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }
