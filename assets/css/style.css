@@ -17,7 +17,7 @@ h1 {
 .dropright {
 }
 
-.navlink {
+.nav-link {
 }
 
 .main {
@@ -34,7 +34,8 @@ h1 {
 
 .nav-item {
   font-size: 26pt;
-  float: right;
+  /* float: right; */
+  /* margin-right: 1rem; */
 }
 .card {
   border: none;
@@ -93,8 +94,13 @@ h1 {
   overflow-y: auto;
 }
 
-#menu {
-  font-size: 28pt;
+#navbarToggleExternalContent {
+  float: right;
+}
+
+.menu {
+  font-size: 30pt;
+  text-shadow: 1px 1px darkslateblue;
   /* margin-left: 1rem; */
 }
 
@@ -121,4 +127,3 @@ h1 {
 #maxpic {
   margin: 0rem 2rem 1rem 0rem;
 }
-
