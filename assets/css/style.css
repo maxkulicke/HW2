@@ -106,9 +106,10 @@ h1 {
 
 #indexbody {
   background-image: url("../../assets/images/lightleak.jpg");
-  height: 100%;
+  /* height: 100%; */
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #portfoliobody {
@@ -116,12 +117,14 @@ h1 {
   /* height: auto; */
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 #contactbody {
   background-image: url("../../assets/images/greenwater.jpg");
   /* height: auto; */
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #maxpic {
